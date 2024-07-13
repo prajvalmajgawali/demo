@@ -38,6 +38,16 @@ public class TestArithematicOperation
         assertEquals(excepted, actual);
     }
     
+    @Test
+    public void setSumWithmixedNumber()
+    {
+    	int val1 = -10;
+    	int val2 = 20;
+    	int excepted = 10;
+    	int actual = ao.sum(val1, val2);
+        assertEquals(excepted, actual);
+    }
+    
     @AfterAll
 	public static void down()
 	{
