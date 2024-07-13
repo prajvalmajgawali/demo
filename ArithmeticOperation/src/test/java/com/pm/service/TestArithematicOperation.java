@@ -28,6 +28,16 @@ public class TestArithematicOperation
         assertEquals(excepted, actual);
     }
     
+    @Test
+    public void setSumWithNagitiveNumber()
+    {
+    	int val1 = -10;
+    	int val2 = -20;
+    	int excepted = -30;
+    	int actual = ao.sum(val1, val2);
+        assertEquals(excepted, actual);
+    }
+    
     @AfterAll
 	public static void down()
 	{
