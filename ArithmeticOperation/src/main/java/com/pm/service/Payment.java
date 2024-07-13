@@ -6,4 +6,9 @@ public class Payment
 	{
 		System.out.println("Payement Implement successfully");
 	}
+	
+	public void netBanking()
+	{
+		System.out.println("NetBanking Implement successfully");
+	}
 }
