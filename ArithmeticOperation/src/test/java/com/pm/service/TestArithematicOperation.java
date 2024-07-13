@@ -21,9 +21,9 @@ public class TestArithematicOperation
     @Test
     public void setSumWithPositiveNumber()
     {
-    	int val1 = 10;
+    	int val1 = 50;
     	int val2 = 20;
-    	int excepted = 30;
+    	int excepted = 70;
     	int actual = ao.sum(val1, val2);
         assertEquals(excepted, actual);
     }
