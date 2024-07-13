@@ -24,6 +24,28 @@ public class TestArithematicOperation
     	int val1 = 100;
     	int val2 = 200;
     	int excepted = 300;
+    	
+    	int actual = ao.sum(val1, val2);
+        assertEquals(excepted, actual);
+    }
+    
+    @Test
+    public void setSumWithNagitiveNumber()
+    {
+    	int val1 = -10;
+    	int val2 = -20;
+    	int excepted = -30;
+    	int actual = ao.sum(val1, val2);
+        assertEquals(excepted, actual);
+    }
+    
+    @Test
+    public void setSumWithmixedNumber()
+    {
+    	int val1 = -10;
+    	int val2 = 20;
+    	int excepted = 10;
+
     	int actual = ao.sum(val1, val2);
         assertEquals(excepted, actual);
     }
