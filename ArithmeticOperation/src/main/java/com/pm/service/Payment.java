@@ -7,7 +7,7 @@ public class Payment
 		System.out.println("Payement Implement successfully");
 	}
 	
-	public void netBanking()
+	public void netBanking(String userName,String password)
 	{
 		System.out.println("NetBanking Implement successfully");
 	}
